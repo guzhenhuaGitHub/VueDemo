@@ -1,0 +1,35 @@
+html {
+  font-size: 16px;
+}
+
+/* 新式盒模型 */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* 指定行数，超出文本省略 */
+@for $i from 1 through 10 {
+  .number-of-line-#{$i} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @if $i == 1 {
+      white-space: nowrap;
+    }
+    @if $i > 1 {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+    }
+  }
+}
+
+/* 字体 */
+@each $type in 'Regular', 'Medium', 'Semibold', 'Bold' {
+  $font-name: to_lower_case($type);
+  .font-#{$font-name} {
+    font-family: "PingFangSC-#{$type}", sans-serif;
+  }
+}
+
