@@ -19,23 +19,23 @@
     </mt-tab-container>
     <mt-tabbar class="is-fixed" v-model="selected">
       <mt-tab-item>
-        <img slot="icon" src="/src/assets/images/tabbar_home_normal@3x.png">
+        <img slot="icon" src="@/assets/images/tabbar_home_normal@3x.png">
         首页
       </mt-tab-item>
       <mt-tab-item>
-        <img slot="icon" src="/src/assets/images/tabbar_home_normal@3x.png">
+        <img slot="icon" src="@/assets/images/tabbar_home_normal@3x.png">
         首页
       </mt-tab-item>
       <mt-tab-item>
-        <img slot="icon" src="/src/assets/images/tabbar_home_normal@3x.png">
+        <img slot="icon" src="@/assets/images/tabbar_home_normal@3x.png">
         首页
       </mt-tab-item>
       <mt-tab-item>
-        <img slot="icon" src="/src/assets/images/tabbar_home_normal@3x.png">
+        <img slot="icon" src="@/assets/images/tabbar_home_normal@3x.png">
         首页
       </mt-tab-item>
       <mt-tab-item>
-        <img slot="icon" src="/src/assets/images/tabbar_home_normal@3x.png">
+        <img slot="icon" src="@/assets/images/tabbar_home_normal@3x.png">
         首页
       </mt-tab-item>
     </mt-tabbar>
